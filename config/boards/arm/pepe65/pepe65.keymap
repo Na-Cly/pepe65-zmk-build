@@ -43,7 +43,7 @@
 
             bindings = <
 &kp GRAVE  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &bt BT_SEL 7  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &kp C_MUTE
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &kp DEL
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &to 3
 &kp LCTL  &kp A  &kp S  &kp D  &trans  &kp G  &kp H  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
 &kp LCTRL  &kp M  &kp LALT      &kp SPACE      &mo LOWER  &mo RAISE  &kp GRAVE  &kp LEFT  &kp DOWN  &bt BT_CLR
@@ -69,6 +69,25 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
+        };
+	
+	game {
+ //   |  ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  +  |  backspace  |
+ //   |  tab  |  q  |  w  |  e  |  r  |  t  |  y  |  u  |  i  |  o  |  p  |  [  |  ]  |  \  |
+ //   |  caps  |  a  |  s  |  d  |  f  |  g  |  h  |  j  |  k  |  l  |  ;  |  '  |  enter  |  encoder_button  |
+ //   |  shift  |  z  |  x  |  c  |  v  |  b  |  n  |  m  |  ,  |  .  |  /  |  shift  |  up  |  extra  |
+ //   |  ctrl  |  win  |  alt    |  space    |  alt  |  win  |  menu  |  left  |  down  |  right  |
+
+
+            bindings = <
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &kp C_MUTE
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &kp DEL
+&kp LCTL  &kp A  &kp S  &kp D  &lt LOWER F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp HOME
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
+&kp LCTRL  &kp M  &kp LALT      &kp SPACE      &mo LOWER  &mo RAISE  &kp GRAVE  &kp LEFT  &kp DOWN  &to 0
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
