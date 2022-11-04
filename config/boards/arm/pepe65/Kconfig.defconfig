@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config ZMK_KEYBOARD_NAME
-	default "pepe65"
+	default "silent65"
 
 if USB
 
