@@ -4,6 +4,9 @@
 config ZMK_KEYBOARD_NAME
 	default "pepe65"
 
+CONFIG_ZMK_KEYBOARD_NAME="yeet"
+
+
 if USB
 
 config USB_NRFX
