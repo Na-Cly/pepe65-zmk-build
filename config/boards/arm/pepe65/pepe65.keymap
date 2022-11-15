@@ -14,7 +14,25 @@
 #define RAISE   2
 
 /{
-	
+	macros {
+        mac_screenshot: mac_screenshot {
+            label = "macOS_screenshot";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LEFT_COMMAND &kp LEFT_SHIFT>
+            , <&macro_tap &kp 4>;
+        };
+    };
+        behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp EQUAL>, <&mac_screenshot>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -27,7 +45,7 @@
 
 
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &kp C_PP
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &td0  &kp BSPC &kp C_PP
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &kp DEL
 &kp LGUI  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
