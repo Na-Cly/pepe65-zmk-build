@@ -27,7 +27,7 @@
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp EQUAL>, <&mac_screenshot>;
+            bindings = <&kp C_PP>, <&kp C_NEXT>, <&kp C_PREV>;
         };
     };
     keymap {
@@ -46,7 +46,7 @@
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &kp HOME
 &kp LGUI  &kp A  &kp S  &kp D  &lt RAISE F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp END
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp GRAVE
-&kp LCTRL  &kp LGUI  &kp LALT      &kp SPACE      &mo LOWER  &mo RAISE  &kp C_MUTE  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LCTRL  &kp LGUI  &kp LALT      &kp SPACE      &mo LOWER  &mo RAISE  &kp td0  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -68,7 +68,7 @@
 &kp LCTRL  &kp M  &kp LALT      &kp SPACE      &trans  &trans  &kp C_MUTE  &kp LEFT  &kp DOWN  &bt BT_CLR
             >;
 
-            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         f {
@@ -87,7 +87,7 @@
 &kp LCTRL  &kp M  &kp LALT      &kp SPACE      &trans   &trans  &kp C_PP  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 	
 	game {
