@@ -19,7 +19,7 @@
             bindings
                 = <&macro_press &kp LSHFT>
 		, <&macro_press &kp LGUI>
-                , <&macro_tap &kp 4>
+                , <&macro_tap &kp N4>
                 , <&macro_release &kp LSHFT &kp LGUI>
                 ;
         };
