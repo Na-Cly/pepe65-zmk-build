@@ -66,7 +66,7 @@
             bindings = <
 &kp GRAVE  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &bt BT_SEL 7  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &to GAME
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &kp HOME
-&kp LCTL  &kp A  &kp S  &kp D  &trans  &kp G  &kp H  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &ms  &kp ENTER  &kp END
+&kp LCTL  &kp A  &kp S  &kp D  &trans  &kp G  &kp H  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp END
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &bootloader
 &kp LCTRL  &kp M  &kp LALT      &kp SPACE      &trans  &trans  &kp C_MUTE  &kp LEFT  &kp DOWN  &bt BT_CLR
             >;
@@ -85,7 +85,7 @@
             bindings = <
 &kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSPC  &to GAME
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &kp HOME
-&kp LGUI  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp END
+&kp LGUI  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &ms  &kp ENTER  &kp END
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp GRAVE
 &kp LCTRL  &kp M  &kp LALT      &kp SPACE      &trans   &trans  &kp C_PP  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
