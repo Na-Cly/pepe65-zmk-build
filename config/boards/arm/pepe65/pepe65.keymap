@@ -14,13 +14,17 @@
 #define RAISE   2
 
 /{
-	macros {
-        mac_screenshot: mac_screenshot {
-            label = "macOS_screenshot";
+    macros {
+        ms: ms {
+            label = "mac screenshot";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LEFT_COMMAND &kp LEFT_SHIFT>
-            , <&macro_tap &kp 4>;
+            bindings
+                = <&macro_press &kp LSHFT>
+		, <&macro_press &kp LGUI>
+                , <&macro_tap &kp N4>
+                , <&macro_release &kp LSHFT &kp LGUI>
+                ;
         };
     };
         behaviors {
@@ -28,8 +32,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp EQUAL>, <&mac_screenshot>;
+            tapping-term-ms = <400>;
+            bindings = <&kp EQUAL>, <&ms>;
         };
     };
 
