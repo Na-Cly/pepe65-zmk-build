@@ -67,7 +67,7 @@
 &kp GRAVE  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &bt BT_SEL 7  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &to GAME
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &kp HOME
 &kp LCTL  &kp A  &kp S  &kp D  &trans  &kp G  &kp H  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &ms  &kp ENTER  &kp END
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp GRAVE
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &bootloader
 &kp LCTRL  &kp M  &kp LALT      &kp SPACE      &trans  &trans  &kp C_MUTE  &kp LEFT  &kp DOWN  &bt BT_CLR
             >;
 
