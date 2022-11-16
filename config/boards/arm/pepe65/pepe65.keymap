@@ -19,8 +19,9 @@
             bindings
                 = <&macro_press &kp LSHFT>
 		, <&macro_press &kp LGUI>
+		, <&macro_press &kp LCTRL>
                 , <&macro_tap &kp N4>
-                , <&macro_release &kp LSHFT &kp LGUI>
+                , <&macro_release &kp LSHFT &kp LGUI &kp LCTRL>
                 ;
         };
     };
