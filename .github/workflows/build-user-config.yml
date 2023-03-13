@@ -82,7 +82,7 @@ jobs:
           echo ::set-output name=zephyr-version::${ZEPHYR_VERSION}
 
       - name: Cache west modules
-        uses: actions/cache@v3.0.11
+        uses: actions/cache@v3.3.1
         continue-on-error: true
         env:
           cache-name: cache-zephyr-${{ steps.variables.outputs.zephyr-version }}-modules
