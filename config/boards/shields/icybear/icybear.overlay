@@ -34,11 +34,11 @@
             , <&pro_micro 8 GPIO_ACTIVE_HIGH> // col 8
             , <&pro_micro 9 GPIO_ACTIVE_HIGH> // col 9
             //need to add bottom gpios here
-            , <&gpio0 10  GPIO_ACTIVE_HIGH>
             , <&gpio0 11  GPIO_ACTIVE_HIGH>
             , <&gpio0 12  GPIO_ACTIVE_HIGH>
             , <&gpio0 13  GPIO_ACTIVE_HIGH>
             , <&gpio0 14  GPIO_ACTIVE_HIGH>
+            , <&gpio0 15  GPIO_ACTIVE_HIGH>
             , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col 10
             , <&pro_micro 16 GPIO_ACTIVE_HIGH> // col 11
             ;
