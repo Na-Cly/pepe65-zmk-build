@@ -1,0 +1,43 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/ext_power.h>
+
+#define DEFAULT 0
+#define LOWER   1
+#define RAISE   2
+#define GAME 3
+
+/{
+	macros {
+        mac_screenshot: mac_screenshot {
+            label = "macOS_screenshot";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LEFT_COMMAND &kp LEFT_SHIFT>
+            , <&macro_tap &kp 4>;
+        };
+    };
+    
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+ //   |  ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  +  |  backspace  |
+ //   |  tab  |  q  |  w  |  e  |  r  |  t  |  y  |  u  |  i  |  o  |  p  |  [  |  ]  |  \  |
+ //   |  caps  |  a  |  s  |  d  |  f  |  g  |  h  |  j  |  k  |  l  |  ;  |  '  |  enter  |  encoder_button  |
+ //   |  shift  |  z  |  x  |  c  |  v  |  b  |  n  |  m  |  ,  |  .  |  /  |  shift  |  up  |  extra  |
+ //   |  ctrl  |  win  |  alt    |  space    |  alt  |  win  |  menu  |  left  |  down  |  right  |
+
+
+            bindings = <
+&kp N1 >;
+
+        };
+
+        
+        };
+    };
+

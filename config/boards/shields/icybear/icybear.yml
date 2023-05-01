@@ -1,0 +1,8 @@
+file_format: "1"
+id: icybear
+name: icybear
+type: shield
+url: https://nacly.net
+requires: [sparkfun_pro_micro_rp2040]
+features:
+  - keys

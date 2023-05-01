@@ -12,4 +12,5 @@
 #     shield: reviung41
 #
 ---
-board: [ "pepe65" ]
+board: [ "sparkfun_pro_micro_rp2040" ]
+shield: ["icybear"]
