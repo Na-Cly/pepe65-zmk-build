@@ -15,11 +15,11 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&sparkfun_pro_micro_rp2040 1 GPIO_ACTIVE_HIGH> // col 0
+            = <&pro_micro 1 GPIO_ACTIVE_HIGH> // col 0
             ;
 
         row-gpios
-            = <&sparkfun_pro_micro_rp2040 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 0
+            = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 0
            
             ;
     };
