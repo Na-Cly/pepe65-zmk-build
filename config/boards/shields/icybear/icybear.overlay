@@ -22,7 +22,7 @@
             = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 0
            
             ;
-    };
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <1>;
