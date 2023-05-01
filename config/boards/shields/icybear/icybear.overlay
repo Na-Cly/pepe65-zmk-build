@@ -20,7 +20,7 @@
             ;
             
         col-gpios
-            = , <&pro_micro 1 GPIO_ACTIVE_HIGH> // col 1
+            = <&pro_micro 1 GPIO_ACTIVE_HIGH> // col 1
             , <&pro_micro 0 GPIO_ACTIVE_HIGH> // col 1
             , <&pro_micro 2 GPIO_ACTIVE_HIGH> // col 2
             , <&pro_micro 3 GPIO_ACTIVE_HIGH> // col 3
