@@ -35,66 +35,14 @@
             bindings = <
 &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC 
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH 
-&kp LGUI  &kp A  &kp S  &kp D  &lt RAISE F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp HOME
+&kp LGUI  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp LGUI  &kp LALT   &kp BSPC   &kp ENT &kp SPACE      &mo LOWER  &mo RAISE  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
-            >;
-
-        };
-
-        ble {
- //   |  ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  +  |  backspace  |
- //   |  tab  |  q  |  w  |  e  |  r  |  t  |  y  |  u  |  i  |  o  |  p  |  [  |  ]  |  \  |
- //   |  caps  |  a  |  s  |  d  |  f  |  g  |  h  |  j  |  k  |  l  |  ;  |  '  |  enter  |  encoder_button  |
- //   |  shift  |  z  |  x  |  c  |  v  |  b  |  n  |  m  |  ,  |  .  |  /  |  shift  |  up  |  extra  |
- //   |  ctrl  |  win  |  alt    |  space    |  alt  |  win  |  menu  |  left  |  down  |  right  |
-
-
-            bindings = <
-&kp GRAVE  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &bt BT_SEL 7  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC 
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &to GAME 
-&kp LCTL  &kp A  &kp S  &kp D  &trans  &kp G  &kp H  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp HOME
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp M  &kp LALT      &kp BSPC   &kp ENT &kp SPACE      &trans  &trans  &kp GRAVE  &kp LEFT  &kp DOWN  &bt BT_CLR
-            >;
-
-        };
-
-        f {
- //   |  ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  +  |  backspace  |
- //   |  tab  |  q  |  w  |  e  |  r  |  t  |  y  |  u  |  i  |  o  |  p  |  [  |  ]  |  \  |
- //   |  caps  |  a  |  s  |  d  |  f  |  g  |  h  |  j  |  k  |  l  |  ;  |  '  |  enter  |  encoder_button  |
- //   |  shift  |  z  |  x  |  c  |  v  |  b  |  n  |  m  |  ,  |  .  |  /  |  shift  |  up  |  extra  |
- //   |  ctrl  |  win  |  alt    |  space    |  alt  |  win  |  menu  |  left  |  down  |  right  |
-
-
-            bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSPC 
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &to GAME 
-&kp LGUI  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp HOME
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp M  &kp LALT       &kp BSPC   &kp ENT &kp SPACE      &trans   &trans  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LCTRL  &kp LGUI  &kp LALT   &kp BSPC   &kp ENT &kp SPACE      &kp N1  &kp N2  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
         };
 	
-	game {
- //   |  ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  +  |  backspace  |
- //   |  tab  |  q  |  w  |  e  |  r  |  t  |  y  |  u  |  i  |  o  |  p  |  [  |  ]  |  \  |
- //   |  caps  |  a  |  s  |  d  |  f  |  g  |  h  |  j  |  k  |  l  |  ;  |  '  |  enter  |  encoder_button  |
- //   |  shift  |  z  |  x  |  c  |  v  |  b  |  n  |  m  |  ,  |  .  |  /  |  shift  |  up  |  extra  |
- //   |  ctrl  |  win  |  alt    |  space    |  alt  |  win  |  menu  |  left  |  down  |  right  |
-
-
-            bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC 
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH 
-&kp LCTL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp HOME
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp M  &kp LALT      &kp BSPC   &kp ENT &kp SPACE      &mo RAISE  &mo LOWER  &kp GRAVE  &kp LEFT  &kp DOWN  &to 0
-            >;
-
-        };
+	
     };
 };
 
