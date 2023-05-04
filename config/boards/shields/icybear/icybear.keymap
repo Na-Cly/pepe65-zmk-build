@@ -36,7 +36,7 @@
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH 
 &kp LGUI  &kp A  &kp S  &kp D  &lt RAISE F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp LGUI  &kp LALT   &kp BSPC   &kp RET &kp SPACE      &mo LOWER  &mo RAISE  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LCTRL  &kp LGUI  &kp LALT   &kp BSPC   &kp SPACE &kp SPACE      &mo LOWER  &mo RAISE  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
         };
@@ -54,7 +54,7 @@
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &to GAME 
 &kp LCTL  &kp A  &kp S  &kp D  &trans  &kp G  &kp H  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp M  &kp LALT      &kp BSPC   &kp RET &kp SPACE      &trans  &trans  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LCTRL  &kp M  &kp LALT      &kp BSPC   &kp SPACE &kp SPACE      &trans  &trans  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
         };
@@ -72,7 +72,7 @@
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &to GAME 
 &kp LGUI  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp M  &kp LALT       &kp BSPC   &kp RET &kp SPACE      &trans   &trans  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LCTRL  &kp M  &kp LALT       &kp BSPC   &kp SPACE &kp SPACE      &trans   &trans  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
         };
@@ -90,7 +90,7 @@
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH 
 &kp LCTL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp M  &kp LALT      &kp BSPC   &kp RET &kp SPACE      &mo RAISE  &mo LOWER  &kp GRAVE  &kp LEFT  &kp DOWN  &to 0
+&kp LCTRL  &kp M  &kp LALT      &kp SPACE   &kp RET &kp SPACE      &mo RAISE  &mo LOWER  &kp GRAVE  &kp LEFT  &kp DOWN  &to 0
             >;
 
         };
