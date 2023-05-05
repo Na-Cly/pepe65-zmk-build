@@ -4,8 +4,14 @@
  * SPDX-License-Identifier: MIT
  */
 #include <dt-bindings/zmk/matrix_transform.h>
-
+#include <behaviors.dtsi>
+&lt {
+    flavor = "balanced";
+    tapping-term-ms = <150>;
+};
 / {
+
+
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
