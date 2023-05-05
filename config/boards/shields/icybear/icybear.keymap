@@ -10,6 +10,11 @@
 #define GAME 3
 
 /{
+
+&lt {
+    flavor = "balanced";
+    tapping-term-ms = <150>;
+};
 	macros {
         mac_screenshot: mac_screenshot {
             label = "macOS_screenshot";
