@@ -5,10 +5,7 @@
  */
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <behaviors.dtsi>
-&lt {
-    flavor = "balanced";
-    tapping-term-ms = <150>;
-};
+
 / {
 
 
@@ -59,6 +56,10 @@
             , <&gpio0 15  GPIO_ACTIVE_HIGH>
             ;
 
+};
+&lt {
+    flavor = "balanced";
+    tapping-term-ms = <150>;
 };
 
 };
