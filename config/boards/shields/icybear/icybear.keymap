@@ -29,7 +29,7 @@ behaviors {
             tapping-term-ms = <135>;    // <---[[moderate duration]]
             quick-tap-ms = <0>;
             flavor = "balanced";
-            bindings = <&kp>, <&kp>;
+            bindings = <&mo>, <&kp>;
         };
     };
     keymap {
