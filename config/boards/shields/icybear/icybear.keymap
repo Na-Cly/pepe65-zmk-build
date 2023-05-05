@@ -11,10 +11,7 @@
 
 /{
 
-&lt {
-    flavor = "balanced";
-    tapping-term-ms = <150>;
-};
+
 	macros {
         mac_screenshot: mac_screenshot {
             label = "macOS_screenshot";
@@ -26,6 +23,10 @@
     };
     
     keymap {
+    &lt {
+    flavor = "balanced";
+    tapping-term-ms = <150>;
+};
         compatible = "zmk,keymap";
 
         default_layer {
