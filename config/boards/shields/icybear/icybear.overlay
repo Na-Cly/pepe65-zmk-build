@@ -37,7 +37,7 @@
             = <&gpio0 18 GPIO_ACTIVE_HIGH> // col 1
             , <&gpio0 15 GPIO_ACTIVE_HIGH> // col 1
             , <&gpio0 14 GPIO_ACTIVE_HIGH> // col 2
-            , <&gpio0 13 GPIO_ACTIVE_HIGH> // col 3
+            , <&gpio0 16 GPIO_ACTIVE_HIGH> // col 3
             ;
 
 };
