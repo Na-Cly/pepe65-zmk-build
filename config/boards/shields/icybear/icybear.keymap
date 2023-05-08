@@ -47,8 +47,7 @@ behaviors {
             bindings = <
 &kp ESC  &kp N1  &kp N2 &kp N3
 &kp TAB  &kp Q  &kp W  &kp E 
-&kp LGUI  &kp A  &kp S  &kp D  
-&kp LSHFT  &kp Z  &kp X 
+&kp LGUI  &kp A  &kp S  
             >;
 
         };
