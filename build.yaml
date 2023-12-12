@@ -13,3 +13,4 @@
 #
 ---
 board: [ "pepe65" ]
+shield: [ "settings_reset" ]
