@@ -16,7 +16,7 @@
             label = "macOS_screenshot";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LEFT_COMMAND &kp LEFT_SHIFT>
+            bindings = <&macro_press &kp LEFT_COMMAND &kp LEFT_SHIFT &kp LCTRL>
             , <&macro_tap &kp 4>;
         };
     };
@@ -33,11 +33,11 @@
 
 
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &kp DEL
+&gresc  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &kp DEL
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &kp INS
 &kp LGUI  &kp A  &kp S  &kp D  &lt RAISE F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
-&kp LCTRL  &kp LGUI  &kp LALT      &kp SPACE      &mo LOWER  &mo RAISE  &kp GRAVE  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LCTRL  &kp LGUI  &kp LALT      &kp SPACE      &mo LOWER  &mo RAISE  &mac_screenshot  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -52,7 +52,7 @@
 
 
             bindings = <
-&kp GRAVE  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &bt BT_SEL 7  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &kp DEL
+&gresc  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &bt BT_SEL 7  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC &kp DEL
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &to GAME
 &kp LCTL  &kp A  &kp S  &kp D  &trans  &kp G  &kp H  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
@@ -71,7 +71,7 @@
 
 
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSPC &kp C_PP
+&gresc  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSPC &kp C_PP
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT &kp BSLH &to GAME
 &kp LGUI  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &kp ENTER  &kp HOME
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp END
