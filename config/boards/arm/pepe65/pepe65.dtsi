@@ -66,7 +66,9 @@ RC(4,0) RC(5,0) RC(2,1)                 RC(7,2)                         RC(0,5) 
     };
 };
 	
-
+&adc {
+    status = "okay";
+};
 
 &gpio0 {
     status = "okay";
