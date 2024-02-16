@@ -76,9 +76,6 @@ RC(4,0) RC(5,0) RC(2,1)                 RC(7,2)                         RC(0,5) 
     status = "okay";
 };
 
-&adc {
-    status = "okay";
-};
 
 &usbd {
     status = "okay";
@@ -88,9 +85,6 @@ RC(4,0) RC(5,0) RC(2,1)                 RC(7,2)                         RC(0,5) 
     };
 };
 
-&pwm0 {
-    status = "okay";
-};
 
 
 
