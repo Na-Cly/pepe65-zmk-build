@@ -11,5 +11,4 @@ supported:
   - usb_device
   - ble
   - ieee802154
-  - pwm
   - watchdog
