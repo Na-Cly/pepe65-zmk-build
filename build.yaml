@@ -12,5 +12,5 @@
 #     shield: reviung41
 #
 ---
-board: [ "bluemicro840" ]
+board: [ "bluemicro" ]
 shield: ['cradio_left']
