@@ -12,4 +12,5 @@
 #     shield: reviung41
 #
 ---
-board: [ "pepe65" ]
+board: [ "bluemicro840_v1" ]
+shield: ['cradio_left']
