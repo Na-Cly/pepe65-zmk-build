@@ -34,7 +34,7 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-            &kp Q      &kp W      &kp E
+            &kp C_VOL_DOWN      &kp C_MUTE      &kp C_VOL_UP
             >;
         };
 
