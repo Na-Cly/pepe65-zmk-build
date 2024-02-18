@@ -13,4 +13,4 @@
 #
 ---
 board: [ "bluemicro840_v1" ]
-shield: ['cradio_left']
+shield: ['footster']
