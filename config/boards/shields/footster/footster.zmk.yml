@@ -1,0 +1,10 @@
+file_format: "1"
+id: footster
+name: footster
+type: shield
+url: https://nacly.net
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+

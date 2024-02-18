@@ -1,0 +1,34 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,matrix-transform = &default_transform;
+    };
+
+    default_transform: keymap_transform_0 {
+        compatible = "zmk,matrix-transform";
+        columns = <3>;
+        rows = <1>;
+        map = <
+        RC(0,0)  RC(0,1)  RC(0,2)
+        >;
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-direct";
+        input-gpios
+        , <&pro_micro  1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pro_micro  0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pro_micro  2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        ;
+    };
+
+};
