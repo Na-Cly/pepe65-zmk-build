@@ -34,9 +34,18 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-            &kp Q      &kp SPACE      &kp E
+            &kp C_PREVIOUS      &LT 1 C_PLAY_PAUSE     &LT 2 kp C_NEXT
             >;
         };
-
+        ble_layer {
+            bindings = <
+            &bt BT_SEL 0     &trans      &bt BT_NXT
+            >;
+        };
+        ble2_layer {
+            bindings = <
+            &bt BT_CLR      &bt BT_CLR_ALL   &trans
+            >;
+        };
     };
 };
