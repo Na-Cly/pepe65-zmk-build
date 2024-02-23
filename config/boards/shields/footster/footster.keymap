@@ -34,7 +34,7 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-            &kp C_PREVIOUS      &lt 1 C_PLAY_PAUSE     &lt 2 C_NEXT
+            &kp K_PREVIOUS      &lt 1 K_PLAY_PAUSE     &lt 2 K_NEXT
             >;
         };
         ble_layer {
