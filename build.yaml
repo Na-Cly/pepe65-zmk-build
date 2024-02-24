@@ -13,4 +13,4 @@
 #
 ---
 board: [ "bluemicro840_v1" ]
-shield: ['footster']
+shield: ['footster', 'settings_reset']
